@@ -27,4 +27,4 @@ The second convolutional neural network has just one input (the sampled latent v
 
 ## The Training
 
-The convolutional neural networks are then trained over the entire MNIST dataset ** (not contained) **
+The convolutional neural networks are then trained over the entire MNIST dataset **(not contained)** 
