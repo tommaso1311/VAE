@@ -5,10 +5,18 @@ The image can then be reconstructed thanks to another neural network (decoder). 
 
 ## The Project
 
-The project is divided into 4 main files:
+The project is divided into 5 main files:
 
 * header.py: it contains all the imports and definitions of some parameters, the dataset class and encoder and decoder functions;
 
 * project.py: it contains the loss function, the optimizer and the code used to train the neural networks;
 
 * loader.py & loader2.py: are used to load pre-trained neural networks to generate original images into "generated/" and "comparison/".
+
+* visualize.ipynb: it allows to manually modify the latent vector provided to the decoder in order to visualize the effects of different features on final images.
+
+### The Convolutional Neural Network
+
+![Encoder structure]()
+
+![Encoder structure]()
