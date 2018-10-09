@@ -17,6 +17,10 @@ The project is divided into 5 main files:
 
 ### The Convolutional Neural Network
 
+The first convolutional neural network has 4 convolutional layers with different filters sizes. It creates two encoded vectors that will be used by the decoding network to recreate the image.
+
 ![Encoder structure](https://github.com/tommaso1311/VAE/blob/master/encodercor.png)
+
+The second convolutional neural network has just one input (the sampled latent vector) and is perfectly symmetric to the encoder network. It simply returns the reconstructed image.
 
 ![Decoder structure](https://github.com/tommaso1311/VAE/blob/master/decodercor.png)
