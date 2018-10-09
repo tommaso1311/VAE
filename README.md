@@ -19,14 +19,15 @@ The project is divided into 5 main files:
 
 The first convolutional neural network has 4 convolutional layers with different filters sizes. It creates two encoded vectors that will be used by the decoding network to recreate the image.
 
-![Encoder structure](https://github.com/tommaso1311/VAE/blob/master/encodercor.png)
+<img src="https://github.com/tommaso1311/VAE/blob/master/encodercor.png" width="400">
 
 The second convolutional neural network has just one input (the sampled latent vector) and is perfectly symmetric to the encoder network. It simply returns the reconstructed image.
 
-![Decoder structure](https://github.com/tommaso1311/VAE/blob/master/decodercor.png)
+<img src="https://github.com/tommaso1311/VAE/blob/master/decodercor.png" width="400">
 
 ## The Training
 
 The convolutional neural networks are then trained over the entire MNIST dataset **(not contained in MNIST_all/ for size reason)** and the model is saved for later **(not contained in model/)**.
 A selection of the best images, created from random latent vector, is visible in the image below:
-<img src="https://github.com/tommaso1311/VAE/blob/master/generated.png" width="250">
+
+<img src="https://github.com/tommaso1311/VAE/blob/master/generated.png" width="400">
