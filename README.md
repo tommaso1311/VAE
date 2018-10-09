@@ -17,6 +17,6 @@ The project is divided into 5 main files:
 
 ### The Convolutional Neural Network
 
-![Encoder structure]()
+![Encoder structure](https://github.com/tommaso1311/VAE/blob/master/encodercor.png)
 
-![Encoder structure]()
+![Decoder structure](https://github.com/tommaso1311/VAE/blob/master/decodercor.png)
