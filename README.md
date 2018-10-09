@@ -1,11 +1,11 @@
 # VAE - Creation Of A Variational Auto Encoder For Image Compression And Generation
 
 This is the final exam project I wrote for the course in Image Analysis for Applied Physics. It consists in the creation of a Variational Auto Encoder which compress images in a features vector thanks to a convolutional neural network (encoder).
-The image can then be reconstructed thanks to another neural network (decoder). Both parts are trained together, so the VAE is an "adversarial model".
+The image can then be reconstructed thanks to another neural network (decoder).
 
 ## The Project
 
-The project is divided into 5 main files:
+The project is written in Python and TensorFlow and is divided into 5 main files:
 
 * header.py: it contains all the imports and definitions of some parameters, the dataset class and encoder and decoder functions;
 
@@ -29,10 +29,10 @@ The second convolutional neural network has just one input (the sampled latent v
 <img src="https://github.com/tommaso1311/VAE/blob/master/decodercor.png">
 </p>
 
-## The Training
+## Training And Results
 
 The convolutional neural networks are then trained over the entire MNIST dataset **(not contained in MNIST_all/ for size reason)** and the model is saved for later **(not contained in model/)**.
-A selection of the best images, created from random latent vector, is visible in the image below:
+A selection of the final best images, created from random latent vector, is visible in the image below:
 
 <p align="center">
 <img src="https://github.com/tommaso1311/VAE/blob/master/generated.png" width="350">
