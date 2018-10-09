@@ -29,5 +29,5 @@ The second convolutional neural network has just one input (the sampled latent v
 
 The convolutional neural networks are then trained over the entire MNIST dataset **(not contained in MNIST_all/ for size reason)** and the model is saved for later **(not contained in model/)**.
 A selection of the best images, created from random latent vector, is visible in the image below:
-![Generated selection](https://github.com/tommaso1311/VAE/blob/master/generated.png=250x250)
+![Generated selection](https://github.com/tommaso1311/VAE/blob/master/generated.png|=250x250)
 
