@@ -24,3 +24,7 @@ The first convolutional neural network has 4 convolutional layers with different
 The second convolutional neural network has just one input (the sampled latent vector) and is perfectly symmetric to the encoder network. It simply returns the reconstructed image.
 
 ![Decoder structure](https://github.com/tommaso1311/VAE/blob/master/decodercor.png)
+
+## The Training
+
+The convolutional neural networks are then trained over the entire MNIST dataset ** (not contained) **
